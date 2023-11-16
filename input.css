@@ -7,4 +7,22 @@
     filter: invert(80%) sepia(37%) saturate(7048%) hue-rotate(132deg)
       brightness(105%) contrast(104%);
   }
+  .features-item-container {
+    @apply flex flex-col items-center space-y-2 md:w-1/2;
+  }
+  .features-item-icon {
+    @apply flex items-center justify-center h-24 mb-6;
+  }
+  .testimonials-box-container {
+    @apply flex flex-col p-10 space-y-6 bg-gray-100 rounded-lg dark:bg-darkBlue3 md:w-1/3;
+  }
+  .testimonials-box-paragraph {
+    @apply text-sm leading-5 md:text-lg;
+  }
+  .testimonials-box-profile-image {
+    @apply w-10 h-10 rounded-full;
+  }
+  .social-icon {
+    @apply p-2 rounded-full bg-darkBlue ficon;
+  }
 }
